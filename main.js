@@ -17,7 +17,7 @@ navLinks.addEventListener("click", (e) => {
 const scrollRevealOption = {
   origin: "bottom",
   distance: "50px",
-  duration: 1000,
+  duration: 700,
 };
 
 ScrollReveal().reveal(".header__container h1", {
@@ -29,11 +29,11 @@ ScrollReveal().reveal(".header__container form", {
 });
 ScrollReveal().reveal(".header__container img", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 700,
 });
 
 ScrollReveal().reveal(".range__card", {
-  duration: 1000,
+  duration: 700,
   interval: 500,
 });
 
@@ -51,7 +51,7 @@ ScrollReveal().reveal(".location__content p", {
 });
 ScrollReveal().reveal(".location__content .location__btn", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 1000,
 });
 
 const selectCards = document.querySelectorAll(".select__card");
@@ -117,7 +117,7 @@ ScrollReveal().reveal(".download__content .section__header", {
 });
 ScrollReveal().reveal(".download__links", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 700,
 });
 
 
